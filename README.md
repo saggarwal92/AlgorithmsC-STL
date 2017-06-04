@@ -25,9 +25,20 @@ To use algorithms in your code, always include
 ```
 
 ### Sorting a vector
+#### Default Sorting
 ```
-sort(vi.begin(), vi.end());   //Sorts all the elements in Ascending Order
-sort(vi.begin(), vi.end(), greater<int>());   //Sorts all the elements in Descending Order
+  sort(vi.begin(), vi.end());   //Sorts all the elements in Ascending Order
+  sort(vi.begin(), vi.end(), greater<int>());   //Sorts all the elements in Descending Order
+```
+#### Custom Sorting
+```
+  class SortAscending{
+    public:
+      bool operator()(const int a, const int b) const{
+        return a < b;
+      }
+  };
+  sort(vi.begin(),vi.end(),SortAscending());
 ```
 
 ### Stack
