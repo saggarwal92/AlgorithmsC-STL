@@ -81,7 +81,7 @@ sort(vi.begin(), vi.end(), greater<int>());   //Sorts all the elements in Descen
   dq.pop_front();     //Pop's the front element in the queue
   dq.empty();         //Returns True if there is no element in the dequeue
   dq.size();          //Returns the number of elements in the dequeue
-
+```
 #### Difference between dequeue and vector is that you can iterate through all the elements int the vector and can access any element at any position in O(1) while dequeue combines the properties of a stack and queue.
 
 
