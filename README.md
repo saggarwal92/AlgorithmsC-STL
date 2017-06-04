@@ -1,8 +1,10 @@
-# AlgorithmsC-STL
+# Algorithms C++ STL
 Basic Functions And Usage Of C++ Standard Template Library
 
 To use algorithms in your code, always include
+```
 #include<algorithm>
+```
 
 ### Vectors (Dynamic Arrays)
 ```
