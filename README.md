@@ -7,10 +7,12 @@ To use algorithms in your code, always include
 ### Vectors (Dynamic Arrays)
 ```
 #include<vector>
- 
+```
+
 Declaration: 
-  vector<int> vi;
+```  vector<int> vi;```
 Functions:
+```
   vi.size();        //Get size of vector
   vi.push_back(3);  //Pushes 3 in the end
   vi.front();       //Access the front element
