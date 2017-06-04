@@ -5,7 +5,7 @@ To use algorithms in your code, always include
 #include<algorithm>
 
 ### Vectors
-
+```
 #include<vector>
  
 Declaration: 
@@ -16,15 +16,16 @@ Functions:
   vi.front();       //Access the front element
   vi.back();        //Access the last element
   vi.pop_back();    //Pop the last element
+```
 
-
-Sorting a vector:
+###Sorting a vector:
+```
 sort(vi.begin(), vi.end());   //Sorts all the elements in Ascending Order
 sort(vi.begin(), vi.end(), greater<int>());   //Sorts all the elements in Descending Order
-
+```
 
 ### Stack
-
+```
 #include<stack>
 
 Declaration:
@@ -34,10 +35,10 @@ Functions:
   s.push(3);   //Pushes 3 to the top;
   s.pop();     //Pop's the top element
   s.empty();   //Returns True if there is no element in the stack
-
+```
 
 ### Queue
-
+```
 #include<queue>
 
 Declaration:
@@ -47,11 +48,11 @@ Functions:
   q.push(3);      //Pushes 3 in the end 
   q.pop();        //Pop's the first(front) element
   q.empty();      //Returns True if there is no element in the queue
-
+```
 
 
 ### Priority Queue
-
+```
 #include<queue>
 
 Declaration:
@@ -65,8 +66,8 @@ Functions:
   
 
 Priority Queue can also be thought of as a heap. So, whenever you want to use Heap DataStructure, use Priority Queue.
+```
 
-### Map
-#include<map>
+
   
 
