@@ -4,7 +4,7 @@ Basic Functions And Usage Of C++ Standard Template Library
 To use algorithms in your code, always include
 #include<algorithm>
 
-### Vectors
+### Vectors (Dynamic Arrays)
 ```
 #include<vector>
  
@@ -18,7 +18,7 @@ Functions:
   vi.pop_back();    //Pop the last element
 ```
 
-###Sorting a vector:
+### Sorting a vector
 ```
 sort(vi.begin(), vi.end());   //Sorts all the elements in Ascending Order
 sort(vi.begin(), vi.end(), greater<int>());   //Sorts all the elements in Descending Order
